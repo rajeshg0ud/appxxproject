@@ -6,6 +6,9 @@
   background-color: black;
   color: white;
 }
+body{
+  margin: 0px;
+}
 
 .nav-bar {
   margin-top: 40px;
@@ -56,18 +59,19 @@ body {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   #App {
     flex-direction: column;
 
   }
 
   nav {
-    width: 130vw;
+    width: 110vw;
   }
 
   li a{
     width: 88%;
+    font-size: medium;
   }
   
   ul {
@@ -84,5 +88,9 @@ body {
     align-self: stretch;
     height: 100%;
   }
+  
+  .nav-bar {
+    margin-top: 0px;
+  }
+  
 }
-
