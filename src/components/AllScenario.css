@@ -1,5 +1,5 @@
 .main-container {
-    margin-left: 50px;
+    margin-left: 5vw;
   }
   
 table {
@@ -13,12 +13,12 @@ thead {
   
 th,
 td {
-    padding: 10px;
+    padding: 1vw;
     font-size: medium;
   }
   
 td {
-    padding: 8px 14px;
+    padding: 1vw 2vw;
     border-bottom: 2px ridge rgb(42, 38, 38);
     font-size: medium;
   }
@@ -33,7 +33,7 @@ tbody {
   }
   
 input {
-    width: 100px;
+    width: 90px;
     color: black;
     background-color: white;
     height: 30px;
@@ -49,4 +49,12 @@ input {
     display: flex;
     flex-direction: column;
   }
-  
+  @media screen and (max-width: 600px) {
+    input{
+      width:7vw;
+    }
+    th,td{
+      font-size: small;
+    }
+    
+  }
