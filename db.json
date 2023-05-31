@@ -1,0 +1,81 @@
+{
+  "scenarios": [
+    {
+      "name": "sceanrio 1",
+      "time": "111",
+      "vehicleCount": 0,
+      "AddVehicle": 0,
+      "id": 1
+    },
+    {
+      "name": "scenario2",
+      "time": "121",
+      "vehicleCount": 0,
+      "AddVehicle": 0,
+      "id": 3
+    },
+    {
+      "name": "scenario3",
+      "time": "78",
+      "vehicleCount": 0,
+      "AddVehicle": 0,
+      "id": 5
+    }
+  ],
+  "vehicles": [
+    {
+      "scenarioId": "1",
+      "name": "Honda Bike",
+      "speed": "30",
+      "positionX": "22",
+      "positionY": "333",
+      "direction": "Towards",
+      "id": 1
+    },
+    {
+      "scenarioId": "1",
+      "name": "Hero Bike",
+      "speed": "40",
+      "positionX": "44",
+      "positionY": "77",
+      "direction": "Backwards",
+      "id": 2
+    },
+    {
+      "scenarioId": "3",
+      "name": "Bus",
+      "speed": "77",
+      "positionX": "33",
+      "positionY": "73",
+      "direction": "Towards",
+      "id": 3
+    },
+    {
+      "scenarioId": "3",
+      "name": "Car",
+      "speed": "79",
+      "positionX": "23",
+      "positionY": "53",
+      "direction": "Backwards",
+      "id": 4
+    },
+    {
+      "scenarioId": "5",
+      "name": "Van",
+      "speed": "99",
+      "positionX": "88",
+      "positionY": "44",
+      "direction": "Downwards",
+      "id": 5
+    },
+    {
+      "scenarioId": "5",
+      "name": "cruisier",
+      "speed": "97",
+      "positionX": "78",
+      "positionY": "20",
+      "direction": "Downwards",
+      "id": 7
+    }
+  ]
+}
