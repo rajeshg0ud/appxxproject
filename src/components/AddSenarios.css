@@ -8,6 +8,7 @@
   border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
+  width: 50vw;
 }
 
 .form-container {
@@ -19,9 +20,9 @@
 }
 
 form {
-  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .box,
@@ -47,13 +48,17 @@ h2 {
   border-radius: 5px;
   border-style: solid;
   height: 35px;
-  width: 250px;
-  margin: 5px 60px 20px 0px;
+  width: 100%;
+  margin: 5px 10vw 20px 0px;
 }
 
 button {
   padding: 7px 15px;
   border-radius: 3px;
+}
+.buttons{
+  align-self:self-end;
+
 }
 
 .blue {
@@ -93,4 +98,27 @@ button {
     display: flex;
     flex-direction: column;
   } 
+  
+  label{
+    font-size: medium;
+  }
+  
+  h2{
+    font-size: large;
+  }
+  
+  .inputs {
+    border-radius: 4px;
+    height: 29px;
+    width: 100%;
+    margin: 5px 10vw 20px 0px;
+  }
+  
+  .form-container {
+    width: 58vw;
+    background-color: rgb(30, 28, 28);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
 }
