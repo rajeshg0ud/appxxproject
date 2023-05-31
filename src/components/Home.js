@@ -51,25 +51,6 @@ const Home = () => {
     setEditVehicle(null);
   };
 
-  const handleSaveVehicle = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-    const updatedVehicle = Object.fromEntries(formData.entries());
-
-    try {
-      const response = await axios.put(`http://localhost:3033/vehicles/${updatedVehicle.id}`, updatedVehicle);
-
-      if (response.status === 200) {
-        console.log('Vehicle updated successfully');
-        setEditVehicle(null);
-      } else {
-        console.error('Error updating vehicle:', response.status);
-      }
-    } catch (error) {
-      console.error('Error updating vehicle:', error);
-    }
-  };
-
   const handleDeleteVehicle = async (id) => {
     try {
       const response = await axios.delete(`http://localhost:3033/vehicles/${id}`);
